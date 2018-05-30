@@ -46,23 +46,4 @@ func InvokedFunction() {
 	}
 
 	fmt.Printf("%s\n", body)
-
-	// req, err := http.NewRequest("POST", functionURL, strings.NewReader(s))
-
-	// c := &http.Client{}
-	// resp, err := c.Do(req)
-	// if err != nil {
-	// 	fmt.Printf("http.Do() error: %v\n", err)
-	// 	return
-	// }
-
-	// defer resp.Body.Close()
-
-	// data, err := ioutil.ReadAll(resp.Body)
-	// if err != nil {
-	// 	fmt.Printf("ioutil.ReadAll() error: %v\n", err)
-	// 	return
-	// }
-
-	// fmt.Printf("%v\n", string(data))
 }
